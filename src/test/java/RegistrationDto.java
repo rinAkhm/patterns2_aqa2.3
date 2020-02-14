@@ -4,9 +4,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
+//@NoArgsConstructor
 @AllArgsConstructor
-public class RegistrationAсс {
+public class RegistrationDto {
     String login;
     String password;
     String status;
